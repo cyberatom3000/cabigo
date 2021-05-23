@@ -1,6 +1,8 @@
 html,
 body {
     height: 100%;
+    background-color: #323232;
+    color: #f7f7f7;
 }
 
 .wrap {
@@ -113,3 +115,30 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+/*      ####      My Styles     ####        */
+.my-card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(247, 247, 247, 0.4);
+    transition: 0.3s;
+    background-color: #f7f7f7;
+    color: #323232;
+}
+
+/* On mouse-over, add a deeper shadow */
+.my-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(247, 247, 247, 0.6);
+}
+
+/* Add some padding inside the card container */
+.card-container {
+    padding: 12px 16px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.site-login {
+    padding: 10% 0;
+}
+
